@@ -1,3 +1,3 @@
 # weather_app
 
-A new Flutter project.
+![Weather App Screenshot](assets/Screenshot_1750909601.png)
