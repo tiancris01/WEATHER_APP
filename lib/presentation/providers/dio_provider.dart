@@ -9,9 +9,6 @@ Dio dio(ref) {
   return Dio(BaseOptions(baseUrl: 'https://api.weatherstack.com'));
 }
 
-// Example API endpoint (remove or comment out if not needed)
-// https://api.weatherstack.com/current?access_key=9a92e43b1d95d73bb8a6a166a4bdfee1&query=Merida
-
 final weatherProvider = FutureProvider.family<WeatherModel, String>((
   ref,
   city,

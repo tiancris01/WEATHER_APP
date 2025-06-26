@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
-import 'package:weather_app/model/dio_provider.dart';
+import 'package:weather_app/presentation/providers/dio_provider.dart';
 
 class LocationList extends ConsumerWidget {
   const LocationList({super.key, required List<String> cities})
